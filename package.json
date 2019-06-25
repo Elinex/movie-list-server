@@ -1,0 +1,23 @@
+{
+  "name": "movie-list-server",
+  "version": "1.0.0",
+  "description": "server to movie list app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elinex/movie-list-server.git"
+  },
+  "author": "Eline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elinex/movie-list-server/issues"
+  },
+  "homepage": "https://github.com/Elinex/movie-list-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
