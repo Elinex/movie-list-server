@@ -10,9 +10,7 @@ app.get('/', (req, res) => {
 
 // GET /api/movies
 app.get('/movies', (req, res) => {
-
   res.send(getMovies(movies));
-  
 });
 
 app.listen(port, () => {
